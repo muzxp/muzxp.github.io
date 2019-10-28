@@ -63,30 +63,12 @@ section div {
 	padding-bottom: 0px;
 	font-size: 1.5em;
 }
-#m1 {
-	height: 1000px;
+section {	height: 1000px;
 	width: 90%;
 	background-color: white;
 	color:black;
 	border:0px;
 	margin-bottom: 30px;
-	margin-left:20px;
 }
-#m2 {
-	height: 1000px;
-	width: 90%;
-	background-color: white;
-	color:black;
-	border:10px;
-	margin-bottom: 30px;
-	margin-left:20px;
-}
-#m3 {
-	height: 1000px;
-	width: 90%;
-	background-color: white;
-	color:black;
-	border:10px;
-	margin-bottom: 30px;
-	margin-left:20px;
-}
+
+@media (max-width: 767px) { 	section {margin-left:33px;}    }  /* xs device */
